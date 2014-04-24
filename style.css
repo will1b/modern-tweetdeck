@@ -45,7 +45,7 @@
 /* Tweet-Box */
         
 .js-stream-item-content {
-    padding-bottom: 0px;
+    padding-bottom: 5px;
 }
             
 .tweet-text {
@@ -78,6 +78,8 @@
     margin-left: 0px;
     left: 0%;
 }
+
+/* Hiding Stuff */
 
 .column-type-icon {
     display: none;
@@ -119,6 +121,9 @@ body {
 .is-narrow-columns .column {
 	margin-right: 1px;
 }
+
+/* Compose Tweet and Padding Fixes */
+/* DON'T TOUCH IT, IT WILL BREAK */
 
 .compose-header {
     height: 51px;
