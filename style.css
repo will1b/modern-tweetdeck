@@ -186,3 +186,7 @@ body {
 .compose-title {
     padding-top: 6px;
 }
+
+.inline-reply .compose-text-container {
+	width: 94%;
+}
