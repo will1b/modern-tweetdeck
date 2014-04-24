@@ -79,8 +79,6 @@
     left: 0%;
 }
 
-/* Hiding Unneccesary Icons */
-
 .column-type-icon {
     display: none;
 }
@@ -93,11 +91,11 @@ body {
    	font-family: "Segoe UI";
 }
 
-/* Column Width */
+/* Column Width/Spacing */
 
 .is-wide-columns .column {
 	width: 350px;
-	margin-right: 1px;
+    margin-right: 1px;
 }
 
 .is-wide-columns .app-columns {
@@ -105,8 +103,22 @@ body {
 	padding-left: 1px;
 }
 
-/* Compose Tweet and Padding Fixes */
-/* DON'T TOUCH THIS, IT WILL BREAK */
+.is-narrow-columns .app-columns {
+	padding-top: 1px;
+	padding-left: 1px;
+}
+
+.app-columns {
+  	padding: 1px 0 1px 1px;
+}
+  
+.js-column {
+  	margin: 0 1px 0 0;
+}
+    
+.is-narrow-columns .column {
+	margin-right: 1px;
+}
 
 .compose-header {
     height: 51px;
