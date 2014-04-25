@@ -58,10 +58,6 @@
     border-bottom: 0px;
 }
                   
-.sprite {
-    background-image: none;
-}
-
 .sprite-column-update {
     width: 100%;
     height: 1px;
