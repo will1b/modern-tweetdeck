@@ -25,3 +25,25 @@ I use Chrome in combination with Stylish to explain how to apply that CSS.
 * Paste in the text from `style.css` into the textbox.
 * Click on **Save** and look on TweetDeck!
 
+## Roadmap
+
+### General Style
+
+* [x] Flat style
+* [x] Removed paddings*, more content displayed*
+* [x] New font + Unicode support
+* [x] Header for 'New Tweet'
+* [x] circled images
+
+### Tweet Status (Fav/RT/both)
+
+* [x] Tweet Status displaying (dogears), changed
+* [x] Links are now colored in the corresponding status color
+
+### Icon Replaces
+
+* [x] New Tweets sprite replaced with CSS-line/border
+
+### Planned
+
+* [ ] Profile redesign
