@@ -1,0 +1,240 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans&subset=latin,cyrillic-ext,greek-ext,greek,vietnamese,latin-ext,cyrillic);
+
+/* Circled Images! */
+
+.tweet-avatar {
+	border-radius: 100px;
+}
+
+.avatar {
+	border-radius: 100px;
+}
+
+.size24 {
+	border-radius: 100px;
+}
+
+.size72 {
+	border-radius: 100px;
+}
+
+.prf-img {
+	border-radius: 100px;
+}
+
+/* Scrollbar Changes */
+
+.scroll-styled-v::-webkit-scrollbar-thumb, .scroll-styled-h::-webkit-scrollbar-thumb {
+	border-radius: 0px;
+}
+
+/* Removing Border Radius */
+
+.btn {
+    border-radius: 0px;
+}
+
+.md1 {
+    border-radius: 0px;
+}
+  
+.compose-account {
+    border-radius: 100px;
+}
+    
+.compose-account-img {
+    border-radius: 100px;
+}
+      
+.compose-account-selected {
+    border-radius: 100px;
+}
+        
+/* Tweet-Box */
+        
+.js-stream-item-content {
+    padding-bottom: 5px;
+}
+            
+.tweet-text {
+    margin-bottom: 5px;
+}
+                
+/* Column-Update Sprite */
+                
+.column-header, .column-header-temp {
+    border-bottom: 0px;
+}
+<<<<<<< HEAD
+
+=======
+                  
+>>>>>>> a9628bc9d87a4cc01fd9b3a94d249dcdd8cd6a56
+.sprite-column-update {
+    width: 100%;
+    height: 1px;
+    border-bottom: 3px solid #48b4e6;
+    box-shadow: 0px 2px 6px #48b4e6;
+}
+
+.column-updates {
+    margin-left: 0px;
+    left: 0%;
+}
+
+.column-type-icon {
+    display: none;
+}
+
+.tweet-dogear {
+    display: block;
+}
+
+body {
+   	font-family: 'Open Sans', sans-serif;
+}
+
+/* Column Width/Spacing */
+
+.is-wide-columns .column {
+	width: 350px;
+    margin-right: 1px;
+}
+
+.is-wide-columns .app-columns {
+	padding-top: 1px;
+	padding-left: 1px;
+}
+
+.is-narrow-columns .app-columns {
+	padding-top: 1px;
+	padding-left: 1px;
+}
+
+.app-columns {
+  	padding: 1px 0 1px 1px;
+}
+  
+.js-column {
+  	margin: 0 1px 0 0;
+}
+    
+.is-narrow-columns .column {
+	margin-right: 1px;
+}
+
+.compose-header {
+    height: 51px;
+}
+
+.antiscroll-inner {
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+
+.compose-accounts {
+	padding-left: 10px;
+	padding-right: 10px;    
+}
+  
+.compose-text-container {
+	margin-left: 10px;
+	margin-right: 10px;    
+}
+
+.js-compose-hint {
+	margin-left: 10px;
+	margin-right: 10px;    
+}
+
+.js-compose-title {
+	margin-left: 10px;    
+}
+    
+.compose-reply-tweet {
+	margin-left: 10px;
+	margin-right: 10px;    
+}
+      
+.js-send-tweet-button {
+	margin-right: 10px;    
+}
+        
+.js-add-image-button {
+    width: 92%;
+	margin-left: 10px;
+	margin-right: 10px;    
+}
+
+.js-schedule-button {
+    width: 92%;
+	margin-left: 10px;
+	margin-right: 10px;    
+}
+  
+.js-dm-button {
+    width: 92%;
+	margin-left: 10px;
+	margin-right: 10px;    
+}
+
+.js-tweet-button {
+	width: 92%;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+  
+.js-compose-message-recipient > p {
+    width: 92%;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.compose-header {
+    background-color: #339dc3;
+}
+
+.attach-compose-buttons .tweet-button {
+	background-color: #339dc3;
+}
+      
+.compose-title {
+    padding-top: 6px;
+}
+
+.inline-reply .compose-text-container {
+	display: inline-block;
+	width: 94%;
+}
+<<<<<<< HEAD
+
+/* New Favorite/Retweet/FavRT behaviours for dogears */
+
+.is-favorite .tweet-dogear {
+display: block;
+width: 0.1px;
+height: 100%;
+border-right: 4px solid #ff9b00;
+box-shadow: -2px 0px 4px #ff9b00;
+background-image: none;
+}
+
+.is-retweet.is-favorite .tweet-dogear {
+display: block;
+width: 0.1px;
+height: 100%;
+border-right: 4px solid #48b4e6;
+box-shadow: -2px 0px 4px #48b4e6;
+background-image: none;
+}
+
+.is-retweet .tweet-dogear {
+display: block;
+width: 0.1px;
+height: 100%;
+border-right: 4px solid #71b332;
+box-shadow: -2px 0px 4px #71b332;
+background-image: none;
+}
+=======
+>>>>>>> a9628bc9d87a4cc01fd9b3a94d249dcdd8cd6a56
