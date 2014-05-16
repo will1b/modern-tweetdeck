@@ -1,5 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans&subset=latin,cyrillic-ext,greek-ext,greek,vietnamese,latin-ext,cyrillic);
 
+@-moz-document domain('tweetdeck.twitter.com') {
 /* Circled Images! */
 
 .tweet-avatar {
@@ -248,4 +249,6 @@ color: #ff9b00;
     
 .is-retweet.is-favorite .tweet-text a {
 color: #48b4e6;    
+}
+
 }
