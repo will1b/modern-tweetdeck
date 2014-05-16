@@ -7,7 +7,6 @@ A CSS-modification for the popular twitter client 'TweetDeck'
 ## Requirements
 
 * A browser supporting userstyles
-* Segoe UI installed (might switch to a more open font sometime, tho)
 
 ## Installation
 
