@@ -236,3 +236,16 @@ box-shadow: -2px 0px 4px #71b332;
 background-image: none;
 }
 
+/* New Favorite/Retweet/FavRT behaviours for links */
+
+.is-retweet .tweet-text a {
+color: #71b332;    
+}
+  
+.is-favorite .tweet-text a {
+color: #ff9b00;    
+}
+    
+.is-retweet.is-favorite .tweet-text a {
+color: #48b4e6;    
+}
