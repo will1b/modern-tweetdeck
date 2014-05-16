@@ -1,3 +1,7 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans&subset=latin,cyrillic-ext,greek-ext,greek,vietnamese,latin-ext,cyrillic);
+
+/* Circled Images! */
+
 .tweet-avatar {
 	border-radius: 100px;
 }
@@ -18,9 +22,13 @@
 	border-radius: 100px;
 }
 
+/* Scrollbar Changes */
+
 .scroll-styled-v::-webkit-scrollbar-thumb, .scroll-styled-h::-webkit-scrollbar-thumb {
 	border-radius: 0px;
 }
+
+/* Removing Border Radius */
 
 .btn {
     border-radius: 0px;
@@ -57,10 +65,6 @@
 .column-header, .column-header-temp {
     border-bottom: 0px;
 }
-                  
-.sprite {
-    background-image: none;
-}
 
 .sprite-column-update {
     width: 100%;
@@ -74,18 +78,16 @@
     left: 0%;
 }
 
-/* Hiding Stuff */
-
 .column-type-icon {
     display: none;
 }
 
 .tweet-dogear {
-    display:none;
+    display: block;
 }
 
 body {
-   	font-family: "Segoe UI";
+   	font-family: 'Open Sans', sans-serif;
 }
 
 /* Column Width/Spacing */
@@ -116,9 +118,6 @@ body {
 .is-narrow-columns .column {
 	margin-right: 1px;
 }
-
-/* Compose Tweet and Padding Fixes */
-/* DON'T TOUCH IT, IT WILL BREAK */
 
 .compose-header {
     height: 51px;
@@ -175,6 +174,18 @@ body {
 	margin-right: 10px;    
 }
 
+.js-tweet-button {
+	width: 92%;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+  
+.js-compose-message-recipient > p {
+    width: 92%;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
 .compose-header {
     background-color: #339dc3;
 }
@@ -188,5 +199,35 @@ body {
 }
 
 .inline-reply .compose-text-container {
+	display: inline-block;
 	width: 94%;
+}
+
+/* New Favorite/Retweet/FavRT behaviours for dogears */
+
+.is-favorite .tweet-dogear {
+display: block;
+width: 0.1px;
+height: 100%;
+border-right: 4px solid #ff9b00;
+box-shadow: -2px 0px 4px #ff9b00;
+background-image: none;
+}
+
+.is-retweet.is-favorite .tweet-dogear {
+display: block;
+width: 0.1px;
+height: 100%;
+border-right: 4px solid #48b4e6;
+box-shadow: -2px 0px 4px #48b4e6;
+background-image: none;
+}
+
+.is-retweet .tweet-dogear {
+display: block;
+width: 0.1px;
+height: 100%;
+border-right: 4px solid #71b332;
+box-shadow: -2px 0px 4px #71b332;
+background-image: none;
 }
