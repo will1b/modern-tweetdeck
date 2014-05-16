@@ -72,6 +72,7 @@
     height: 1px;
     border-bottom: 3px solid #48b4e6;
     box-shadow: 0px 2px 6px #48b4e6;
+    margin-top: -1px;
 }
 
 .column-updates {
