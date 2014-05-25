@@ -22,7 +22,7 @@ I use Chrome in combination with Stylish to explain how to apply that CSS.
 ### Style-Preferences
 
 * Call the Style how you want, I suggest *Modernized TweetDeck* or something like that.
-* Create some rules and point them to the following URLs to change the CSS: `https://tweetdeck.twitter.com` and `https://tweetdeck.twitter.com/#`
+* Create some rules and point them to the following URLs to change the CSS: `https://tweetdeck.twitter.com`, `https://tweetdeck.twitter.com/#`, `https://web.tweetdeck.com` or `https://web.tweetdeck.com/#`
 * Paste in the text from `style.css` into the textbox.
 * Click on **Save** and look on TweetDeck!
 

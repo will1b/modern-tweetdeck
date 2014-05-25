@@ -147,6 +147,11 @@ body {
 .js-compose-title {
 	margin-left: 10px;    
 }
+
+.js-media-added {
+  	padding-left: 10px;
+	padding-right: 10px;
+}
     
 .compose-reply-tweet {
 	margin-left: 10px;
