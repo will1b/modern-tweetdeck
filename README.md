@@ -1,4 +1,4 @@
-# Modernized TweetDeck
+![](http://puu.sh/94QI3.png)
 
 A CSS-modification for the popular twitter client 'TweetDeck'
 
