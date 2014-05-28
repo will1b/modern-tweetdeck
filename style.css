@@ -251,3 +251,23 @@ color: #ff9b00;
 .is-retweet.is-favorite .tweet-text a {
 color: #48b4e6;    
 }
+
+/* Column Header Condensing */
+
+.column-header, .column-header-temp {
+    height: 30px;
+    line-height: 30px;
+    z-index: 201;
+}
+  
+.column-drag-handle {
+    height: 15px;
+}
+
+.column-content {
+    top: 30px;
+}
+  
+.column-title-back .icon {
+    top: 15px;
+}
