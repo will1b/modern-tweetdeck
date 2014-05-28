@@ -26,6 +26,14 @@ I use Chrome in combination with Stylish to explain how to apply that CSS.
 * Paste in the text from `style.css` into the textbox.
 * Click on **Save** and look on TweetDeck!
 
+### Using a custom loading image!
+
+Just, as default, copy the newest version of the `style.css` into Stylish and now do the following:
+
+* Upload your image to a hoster where it will stay permanent
+* Copy the URL and paste it into the `background-image: url(YOUR URL HERE);` and save the style.
+* Done!
+
 ## Roadmap
 
 ### General Style
@@ -35,6 +43,7 @@ I use Chrome in combination with Stylish to explain how to apply that CSS.
 * [x] New font + Unicode support
 * [x] Header for 'New Tweet'
 * [x] circled images
+* [x] Resized Column-Headers
 
 ### Tweet Status (Fav/RT/both)
 
@@ -44,6 +53,10 @@ I use Chrome in combination with Stylish to explain how to apply that CSS.
 ### Icon Replaces
 
 * [x] New Tweets sprite replaced with CSS-line/border
+
+### Special
+
+* [x] Support for custom loading background!
 
 ### Planned
 
