@@ -94,8 +94,13 @@ body {
     display: block;
 }
 
+/* Applying font */
 body {
    	font-family: 'Open Sans', sans-serif;
+}
+
+.is-inverted-dark {
+  	font-family: 'Open Sans', sans-serif;
 }
 
 /* Column Width/Spacing */
