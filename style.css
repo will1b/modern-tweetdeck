@@ -283,8 +283,12 @@ color: #48b4e6;
     transition: all 0.2s ease-in-out;
 }
 
-.facet-type-content {
+.accordion {
   	margin-top: 30px;
+}
+
+.accordion-divider-t {
+  	margin-top: 0px;
 }
   
 .column-drag-handle {
