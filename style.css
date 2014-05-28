@@ -298,3 +298,9 @@ color: #48b4e6;
 .column-title-back .icon {
     top: 15px;
 }
+
+/* Options Panel */
+
+button.btn-options-tray[data-action=remove] {
+	color: #dd2a2a;  
+}
