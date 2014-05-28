@@ -261,7 +261,7 @@ color: #48b4e6;
 
 /* Column Header Condensing */
 
-.column-header, .column-header-temp {
+.column-header {
     height: 30px;
     line-height: 30px;
     z-index: 201;
@@ -272,7 +272,7 @@ color: #48b4e6;
     transition: all 0.2s ease-in-out;
 }
   
-.column-header:hover, .column-header-temp:hover {
+.column-header:hover {
     height: 30px;
     line-height: 30px;
     z-index: 201;
