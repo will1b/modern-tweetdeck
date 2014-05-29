@@ -266,12 +266,16 @@ color: #48b4e6;
 
 /* Column Header Condensing */
 
+.js-column-header {
+    height: 30px;
+    line-height: 30px;
+}
+
 .column-header {
     height: 30px;
     line-height: 30px;
-    z-index: 201;
 }
-  
+
 .column-drag-handle {
     height: 15px;
 }
