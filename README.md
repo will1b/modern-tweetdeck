@@ -1,38 +1,42 @@
 ![](http://puu.sh/94QI3.png)
 
-A CSS-modification for the popular twitter client 'TweetDeck'
+A CSS modification for the popular Twitter client 'TweetDeck'
 
-**WARNING:** This CSS can't be applied directly *without* a plugin/app for your browser that allows userstyles on certain webpages. I recommend Stylish/userstyles.org
+**WARNING:** This modification cannot be applied directly *without* a plugin for your browser that allows userstyles on certain webpages. I would recommend Stylish/userstyles.org.
 
 ## Requirements
 
-* A browser supporting userstyles
-* Any Browser that is not Internet Explorer, *I highly doubt it will work there.*
+* Any browser that is not Internet Explorer, *I highly doubt it will work there.*
+* A plugin that provides support for userstyles
 
 ## Installation
 
-I use Chrome in combination with Stylish to explain how to apply that CSS.
+These instructions are for Stylish on Chromium-based browsers (like Chrome) and Mozilla-based browsers (like Firefox). Steps will vary based on browser and plugin.
 
-### How to find Stylish and the Theme-Adding Options
+### How to add a new style
 
-* Right Click on the Stylish Icon and choose Manage, *this will take you to the Chrome App-Screen*
-* At the bottom of the Stylish-'row', click Options, *you are now in the Stylish-Theme Manager*
+* Click on the Stylish icon.
+* Click on "Manage installed styles" (Chrome) or "Manage styles" (Firefox).
 * Click on "Write New Style"
 
-### Style-Preferences
+### How to install this style
 
-* Call the Style how you want, I suggest *Modernized TweetDeck* or something like that.
-* Create some rules and point them to the following URLs to change the CSS: `https://tweetdeck.twitter.com`, `https://tweetdeck.twitter.com/#`, `https://web.tweetdeck.com` or `https://web.tweetdeck.com/#`
-* Paste in the text from `style.css` into the textbox.
-* Click on **Save** and look on TweetDeck!
+* Name the Style anything you want, but something easy to recognise like *Modernized TweetDeck* would be good.
+* (Chrome only) Create a rule pointing to `URLs starting with` `https://tweetdeck.twitter.com`.
+* (Firefox only) Add the following into the textbox, on a single line: 
+* `@-moz-document url-prefix("https://tweetdeck.twitter.com") {`.
+* Paste the text from `style.css` into the textbox, below the `@moz-document...` line if you have one.
+* (Firefox only) Scroll to the bottom of the textbox and add an extra line with a single `}` on it.
+* Click on **Save** and look at TweetDeck!
 
-### Using a custom loading image!
+### How to use a custom loading image
 
-Just, as default, copy the newest version of the `style.css` into Stylish and now do the following:
+Follow the above steps, but open the theme in Stylish afterwards and do the following:
 
-* Upload your image to a hoster where it will stay permanent
-* Copy the URL and paste it into the `background-image: url(YOUR URL HERE);` and save the style.
-* Done!
+* Upload your image to a host where it will stay up permanently
+* Copy the URL and paste it into the line starting `background-image: url(` where the default URL is.
+* Click on save.
+* Notice the changes on refresh!
 
 ## Roadmap
 
@@ -40,14 +44,14 @@ Just, as default, copy the newest version of the `style.css` into Stylish and no
 
 * [x] Flat style
 * [x] Removed paddings, *more content displayed*
-* [x] New font + Unicode support
+* [x] New font and Unicode support
 * [x] Header for 'New Tweet'
-* [x] circled images
-* [x] Resized Column-Headers
+* [x] Circled images
+* [x] Resized column headers
 
-### Tweet Status (Fav/RT/both)
+### Tweet Status (Favorite/Retweet/Both)
 
-* [x] Tweet Status displaying (dogears), changed
+* [x] Dogears displaying tweet status changed to a bar on the right-hand side (yellow = favorite, green = retweet, blue = both)
 * [x] Links are now colored in the corresponding status color
 
 ### Icon Replaces
