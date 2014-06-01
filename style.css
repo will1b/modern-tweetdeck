@@ -276,6 +276,11 @@ color: #48b4e6;
     line-height: 30px;
 }
 
+.js-tweet-results .column-header {
+    height: 50px;
+    line-height: 50px;
+}
+
 .column-drag-handle {
     height: 15px;
 }
@@ -285,7 +290,7 @@ color: #48b4e6;
 }
   
 .column-title-back .icon {
-    top: 15px;
+    top: 50%;
 }
 
 /* Options Panel */
