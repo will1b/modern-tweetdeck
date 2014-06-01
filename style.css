@@ -223,31 +223,26 @@ body {
 
 /* New Favorite/Retweet/FavRT behaviours for dogears */
 
-.is-favorite .tweet-dogear {
+.tweet-dogear {
 	display: block;
 	width: 0.1px;
 	height: 100%;
+  	background-image: none;
+}
+
+.is-favorite .tweet-dogear {
 	border-right: 3px solid #ff9b00;
 	box-shadow: -1px 0px 4px #ff9b00;
-	background-image: none;
 }
 
 .is-retweet.is-favorite .tweet-dogear {
-	display: block;
-	width: 0.1px;
-	height: 100%;
 	border-right: 3px solid #48b4e6;
 	box-shadow: -1px 0px 4px #48b4e6;
-	background-image: none;
 }
 
 .is-retweet .tweet-dogear {
-	display: block;
-	width: 0.1px;
-	height: 100%;
 	border-right: 3px solid #71b332;
 	box-shadow: -1px 0px 4px #71b332;
-	background-image: none;
 }
 
 /* New Favorite/Retweet/FavRT behaviours for links */
