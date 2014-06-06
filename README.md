@@ -1,8 +1,10 @@
 ![](http://puu.sh/94QI3.png)
 
+**UPDATE:** This project is discontinued - you can still use it and recommend it to friends, but there may not be any further support.  However, development on a successor, [cashmere](https://github.com/pixeldesu/cashmere/), has begun.
+
 A CSS modification for the popular Twitter client 'TweetDeck'
 
-**WARNING:** This modification cannot be applied directly *without* a plugin for your browser that allows userstyles on certain webpages. I would recommend Stylish/userstyles.org.
+**WARNING:** This modification cannot be applied directly *without* a plugin for your browser that allows userstyles on certain webpages. I would recommend [Stylish/userstyles.org](http://userstyles.org/).
 
 ## Requirements
 
@@ -11,7 +13,7 @@ A CSS modification for the popular Twitter client 'TweetDeck'
 
 ## Installation
 
-These instructions are for Stylish on Chromium-based browsers (like Chrome) and Mozilla-based browsers (like Firefox). Steps will vary based on browser and plugin.
+These instructions are for Stylish on [Chromium-based browsers (like Chrome)](https://chrome.google.com/webstore/detail/fjnbnpbmkenffdnngjfgmeleoegfcffe) and [Mozilla-based browsers (like Firefox)](https://addons.mozilla.org/en-US/firefox/addon/stylish/?src=external-userstyleshome). Steps will vary based on browser and plugin.
 
 ### How to add a new style
 
