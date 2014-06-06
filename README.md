@@ -1,6 +1,6 @@
 ![](http://puu.sh/94QI3.png)
 
-**UPDATE:** This project is discontinued - you can still use it and recommend it to friends, but there may not be any further support.  However, development on a successor, [cashmere](https://github.com/pixeldesu/cashmere/), has begun.
+**UPDATE:** This project has been discontinued - you can still use it and recommend it to friends, but there may not be any further support.  However, development on a successor, [cashmere](https://github.com/pixeldesu/cashmere/), has begun.
 
 A CSS modification for the popular Twitter client 'TweetDeck'
 
